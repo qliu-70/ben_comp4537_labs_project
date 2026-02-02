@@ -1,0 +1,2 @@
+# Environment variables (keeps API keys safe if you use them later)
+.env
