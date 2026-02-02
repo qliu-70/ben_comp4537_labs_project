@@ -5,6 +5,14 @@ const fs = require('fs')
 const path = `./Data/file.txt`;
 const Greeting = require('./lang/messages/en/en.js')
 
+/**
+ * Refactored file writing logic to handle asynchronous errors.
+ * Solved issue where try/catch failed to catch fs.appendFile errors.
+ * Assistance provided by Google Gemini.
+ * @link https://gemini.google.com/app
+ */
+
+
 class Server {
     constructor(port) {
         this.port = port;
