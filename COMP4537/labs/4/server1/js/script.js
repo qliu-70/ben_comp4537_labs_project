@@ -95,5 +95,5 @@ class UI {
     }
 }
 
-const host_url = "http://localhost:3000/api/v1/sql";
+const host_url = "https://b5-server2.onrender.com/api/v1/sql";
 const app = new UI(host_url);
